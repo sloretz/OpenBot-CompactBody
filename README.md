@@ -1,4 +1,4 @@
-# OpenBot-CompactBody
+# OpenBot - Compact Body
 
 ![Left: OpenBot-CompactBody in CAD; Center: Front view of assembled robot; Right: Angled view of assembled robot](docs/images/three_pic_75per.png)
 
@@ -8,9 +8,9 @@ The minimum build volume is **161 x 100 x 32mm**.
 Most components (motors, wheels, phone, sonar, encoders) are in the exact same positions as the original.
 This means the kinematics are the same, and a [URDF](http://wiki.ros.org/urdf) or [SDFormat](http://sdformat.org/) file for the original may still be usable with the Compact Body.
 There are few exceptions:
-  * the LEDs are mounted on the front instead of the rear
-  * there is no space for the optional OLED screen
-  * the power switch is mounted on the front instead of the top
+  * The LEDs are mounted on the front instead of the rear
+  * There is no space for the optional OLED screen
+  * The power switch is mounted on the front instead of the top
 
 ## Printing it
 
@@ -25,7 +25,7 @@ Parts:
 You'll also need to print the original [`phone_mount_bottom` and `phone_mount_top`](https://github.com/isl-org/OpenBot/tree/e99d19224f31dc0bd887e847b58db6c55c3338ed/body/diy#3d-printing).
 
 See the photo above for orientation on the build plate.
-A layer height of 0.2mm is fine, and no supports are needed.
+A layer height of 0.2mm is sufficient, and no supports are needed.
 Infill around 15-20% is fine.
 It's been tested with PETG, but any other rigid plastic should work too.
 
@@ -49,8 +49,8 @@ Here's what it looks like with all wires connected.
 
 ![Wiring inside of the robot](docs/images/wiring.png)
 
-The compact body has points for a PCB to be mounted using 4 M3x5 screws.
-The 4 Arduino Nano stands need to be broken off to use them.
+The compact body has points for a PCB to be mounted using four (4) M3x5 screws.
+The four (4) Arduino Nano stands need to be broken off to use them.
 
 ![Picture of PCB mount points](docs/images/pcb_holes.png)
 
@@ -65,19 +65,19 @@ If you try it out, please open an issue to say if it works.
 
 ![Animation of screws connecting phone mount to phone plate](docs/images/phone_mount_to_phone_plate.gif)
 
-Mount the phone holder to the top of the phone plate using two M3x25 screws and M3 nuts.
+Mount the phone holder to the top of the phone plate using two (2) M3x25 screws and M3 nuts.
 
 ### 4. Attach the phone plate to the body
 
 ![Animation of screws connecting phone plate to compact body](docs/images/phone_plate_to_body.gif)
 
-Attach the phone plate using two M3x25 screws and M3 nuts.
+Attach the phone plate using two (2) M3x25 screws and M3 nuts.
 
 ### 5. Attach the battery mount to the body
 
 ![Animation of screws connecting battery mount to compact body](docs/images/battery_mount_to_body.gif)
 
-Attach the battery mount using two M3x25 screws and M3 nuts.
+Attach the battery mount using two (2) M3x25 screws and M3 nuts.
 
 ### 6. Glue the battery holder to the battery mount
 
